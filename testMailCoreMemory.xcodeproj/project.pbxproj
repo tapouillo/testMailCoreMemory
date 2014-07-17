@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F816B2E31976ED4200440C6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F816B2E21976ED4200440C6D /* Cocoa.framework */; };
+		F816B2ED1976ED4200440C6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F816B2EB1976ED4200440C6D /* InfoPlist.strings */; };
+		F816B2EF1976ED4200440C6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F816B2EE1976ED4200440C6D /* main.m */; };
+		F816B2F31976ED4200440C6D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F816B2F11976ED4200440C6D /* Credits.rtf */; };
+		F816B2F61976ED4200440C6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F816B2F51976ED4200440C6D /* AppDelegate.m */; };
+		F816B2F91976ED4200440C6D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F816B2F71976ED4200440C6D /* MainMenu.xib */; };
+		F816B2FB1976ED4200440C6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F816B2FA1976ED4200440C6D /* Images.xcassets */; };
+		F816B3021976ED4200440C6D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F816B3011976ED4200440C6D /* XCTest.framework */; };
+		F816B3031976ED4200440C6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F816B2E21976ED4200440C6D /* Cocoa.framework */; };
+		F816B30B1976ED4200440C6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F816B3091976ED4200440C6D /* InfoPlist.strings */; };
+		F816B30D1976ED4200440C6D /* testMailCoreMemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F816B30C1976ED4200440C6D /* testMailCoreMemoryTests.m */; };
+		F816B32A1976EE9C00440C6D /* MailCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F816B3291976EE7D00440C6D /* MailCore.framework */; };
+		F816B32C1976EEA500440C6D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F816B32B1976EEA500440C6D /* Security.framework */; };
+		F816B3301976EEDB00440C6D /* MailCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F816B3291976EE7D00440C6D /* MailCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F816B3041976ED4200440C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F816B2D71976ED4200440C6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F816B2DE1976ED4200440C6D;
+			remoteInfo = testMailCoreMemory;
+		};
+		F816B3201976EE7D00440C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F816B3181976EE7C00440C6D /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA537169E772200778456;
+			remoteInfo = "static mailcore2 osx";
+		};
+		F816B3221976EE7D00440C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F816B3181976EE7C00440C6D /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BA2C191705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+		F816B3241976EE7D00440C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F816B3181976EE7C00440C6D /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA78C169F259200778456;
+			remoteInfo = tests;
+		};
+		F816B3261976EE7D00440C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F816B3181976EE7C00440C6D /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A81B911706840C00882C15;
+			remoteInfo = "test-ios";
+		};
+		F816B3281976EE7D00440C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F816B3181976EE7C00440C6D /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BD288D170BD71100A91AC1;
+			remoteInfo = "mailcore osx";
+		};
+		F816B32D1976EEC000440C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F816B3181976EE7C00440C6D /* mailcore2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BD288C170BD71100A91AC1;
+			remoteInfo = "mailcore osx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F816B32F1976EECA00440C6D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F816B3301976EEDB00440C6D /* MailCore.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F816B2DF1976ED4200440C6D /* testMailCoreMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMailCoreMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F816B2E21976ED4200440C6D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F816B2E51976ED4200440C6D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F816B2E61976ED4200440C6D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F816B2E71976ED4200440C6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F816B2EA1976ED4200440C6D /* testMailCoreMemory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testMailCoreMemory-Info.plist"; sourceTree = "<group>"; };
+		F816B2EC1976ED4200440C6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F816B2EE1976ED4200440C6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F816B2F01976ED4200440C6D /* testMailCoreMemory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testMailCoreMemory-Prefix.pch"; sourceTree = "<group>"; };
+		F816B2F21976ED4200440C6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F816B2F41976ED4200440C6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F816B2F51976ED4200440C6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F816B2F81976ED4200440C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F816B2FA1976ED4200440C6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F816B3001976ED4200440C6D /* testMailCoreMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testMailCoreMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F816B3011976ED4200440C6D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F816B3081976ED4200440C6D /* testMailCoreMemoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testMailCoreMemoryTests-Info.plist"; sourceTree = "<group>"; };
+		F816B30A1976ED4200440C6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F816B30C1976ED4200440C6D /* testMailCoreMemoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMailCoreMemoryTests.m; sourceTree = "<group>"; };
+		F816B3181976EE7C00440C6D /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "testMailCoreMemory/mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
+		F816B32B1976EEA500440C6D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F816B2DC1976ED4200440C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F816B32C1976EEA500440C6D /* Security.framework in Frameworks */,
+				F816B32A1976EE9C00440C6D /* MailCore.framework in Frameworks */,
+				F816B2E31976ED4200440C6D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F816B2FD1976ED4200440C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F816B3031976ED4200440C6D /* Cocoa.framework in Frameworks */,
+				F816B3021976ED4200440C6D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F816B2D61976ED4200440C6D = {
+			isa = PBXGroup;
+			children = (
+				F816B3181976EE7C00440C6D /* mailcore2.xcodeproj */,
+				F816B2E81976ED4200440C6D /* testMailCoreMemory */,
+				F816B3061976ED4200440C6D /* testMailCoreMemoryTests */,
+				F816B2E11976ED4200440C6D /* Frameworks */,
+				F816B2E01976ED4200440C6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F816B2E01976ED4200440C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F816B2DF1976ED4200440C6D /* testMailCoreMemory.app */,
+				F816B3001976ED4200440C6D /* testMailCoreMemoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F816B2E11976ED4200440C6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F816B32B1976EEA500440C6D /* Security.framework */,
+				F816B2E21976ED4200440C6D /* Cocoa.framework */,
+				F816B3011976ED4200440C6D /* XCTest.framework */,
+				F816B2E41976ED4200440C6D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F816B2E41976ED4200440C6D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F816B2E51976ED4200440C6D /* AppKit.framework */,
+				F816B2E61976ED4200440C6D /* CoreData.framework */,
+				F816B2E71976ED4200440C6D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F816B2E81976ED4200440C6D /* testMailCoreMemory */ = {
+			isa = PBXGroup;
+			children = (
+				F816B2F41976ED4200440C6D /* AppDelegate.h */,
+				F816B2F51976ED4200440C6D /* AppDelegate.m */,
+				F816B2F71976ED4200440C6D /* MainMenu.xib */,
+				F816B2FA1976ED4200440C6D /* Images.xcassets */,
+				F816B2E91976ED4200440C6D /* Supporting Files */,
+			);
+			path = testMailCoreMemory;
+			sourceTree = "<group>";
+		};
+		F816B2E91976ED4200440C6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F816B2EA1976ED4200440C6D /* testMailCoreMemory-Info.plist */,
+				F816B2EB1976ED4200440C6D /* InfoPlist.strings */,
+				F816B2EE1976ED4200440C6D /* main.m */,
+				F816B2F01976ED4200440C6D /* testMailCoreMemory-Prefix.pch */,
+				F816B2F11976ED4200440C6D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F816B3061976ED4200440C6D /* testMailCoreMemoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F816B30C1976ED4200440C6D /* testMailCoreMemoryTests.m */,
+				F816B3071976ED4200440C6D /* Supporting Files */,
+			);
+			path = testMailCoreMemoryTests;
+			sourceTree = "<group>";
+		};
+		F816B3071976ED4200440C6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F816B3081976ED4200440C6D /* testMailCoreMemoryTests-Info.plist */,
+				F816B3091976ED4200440C6D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F816B3191976EE7C00440C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F816B3211976EE7D00440C6D /* libMailCore.a */,
+				F816B3231976EE7D00440C6D /* libMailCore-ios.a */,
+				F816B3251976EE7D00440C6D /* tests */,
+				F816B3271976EE7D00440C6D /* test-ios.app */,
+				F816B3291976EE7D00440C6D /* MailCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F816B2DE1976ED4200440C6D /* testMailCoreMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F816B3101976ED4200440C6D /* Build configuration list for PBXNativeTarget "testMailCoreMemory" */;
+			buildPhases = (
+				F816B2DB1976ED4200440C6D /* Sources */,
+				F816B2DC1976ED4200440C6D /* Frameworks */,
+				F816B2DD1976ED4200440C6D /* Resources */,
+				F816B32F1976EECA00440C6D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F816B32E1976EEC000440C6D /* PBXTargetDependency */,
+			);
+			name = testMailCoreMemory;
+			productName = testMailCoreMemory;
+			productReference = F816B2DF1976ED4200440C6D /* testMailCoreMemory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F816B2FF1976ED4200440C6D /* testMailCoreMemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F816B3131976ED4200440C6D /* Build configuration list for PBXNativeTarget "testMailCoreMemoryTests" */;
+			buildPhases = (
+				F816B2FC1976ED4200440C6D /* Sources */,
+				F816B2FD1976ED4200440C6D /* Frameworks */,
+				F816B2FE1976ED4200440C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F816B3051976ED4200440C6D /* PBXTargetDependency */,
+			);
+			name = testMailCoreMemoryTests;
+			productName = testMailCoreMemoryTests;
+			productReference = F816B3001976ED4200440C6D /* testMailCoreMemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F816B2D71976ED4200440C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stéphane QUERAUD";
+				TargetAttributes = {
+					F816B2FF1976ED4200440C6D = {
+						TestTargetID = F816B2DE1976ED4200440C6D;
+					};
+				};
+			};
+			buildConfigurationList = F816B2DA1976ED4200440C6D /* Build configuration list for PBXProject "testMailCoreMemory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F816B2D61976ED4200440C6D;
+			productRefGroup = F816B2E01976ED4200440C6D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F816B3191976EE7C00440C6D /* Products */;
+					ProjectRef = F816B3181976EE7C00440C6D /* mailcore2.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F816B2DE1976ED4200440C6D /* testMailCoreMemory */,
+				F816B2FF1976ED4200440C6D /* testMailCoreMemoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F816B3211976EE7D00440C6D /* libMailCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMailCore.a;
+			remoteRef = F816B3201976EE7D00440C6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F816B3231976EE7D00440C6D /* libMailCore-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMailCore-ios.a";
+			remoteRef = F816B3221976EE7D00440C6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F816B3251976EE7D00440C6D /* tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tests;
+			remoteRef = F816B3241976EE7D00440C6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F816B3271976EE7D00440C6D /* test-ios.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "test-ios.app";
+			remoteRef = F816B3261976EE7D00440C6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F816B3291976EE7D00440C6D /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = F816B3281976EE7D00440C6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F816B2DD1976ED4200440C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F816B2ED1976ED4200440C6D /* InfoPlist.strings in Resources */,
+				F816B2FB1976ED4200440C6D /* Images.xcassets in Resources */,
+				F816B2F31976ED4200440C6D /* Credits.rtf in Resources */,
+				F816B2F91976ED4200440C6D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F816B2FE1976ED4200440C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F816B30B1976ED4200440C6D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F816B2DB1976ED4200440C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F816B2F61976ED4200440C6D /* AppDelegate.m in Sources */,
+				F816B2EF1976ED4200440C6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F816B2FC1976ED4200440C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F816B30D1976ED4200440C6D /* testMailCoreMemoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F816B3051976ED4200440C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F816B2DE1976ED4200440C6D /* testMailCoreMemory */;
+			targetProxy = F816B3041976ED4200440C6D /* PBXContainerItemProxy */;
+		};
+		F816B32E1976EEC000440C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mailcore osx";
+			targetProxy = F816B32D1976EEC000440C6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F816B2EB1976ED4200440C6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F816B2EC1976ED4200440C6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F816B2F11976ED4200440C6D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F816B2F21976ED4200440C6D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F816B2F71976ED4200440C6D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F816B2F81976ED4200440C6D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F816B3091976ED4200440C6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F816B30A1976ED4200440C6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F816B30E1976ED4200440C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F816B30F1976ED4200440C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F816B3111976ED4200440C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testMailCoreMemory/testMailCoreMemory-Prefix.pch";
+				INFOPLIST_FILE = "testMailCoreMemory/testMailCoreMemory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F816B3121976ED4200440C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testMailCoreMemory/testMailCoreMemory-Prefix.pch";
+				INFOPLIST_FILE = "testMailCoreMemory/testMailCoreMemory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F816B3141976ED4200440C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testMailCoreMemory.app/Contents/MacOS/testMailCoreMemory";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testMailCoreMemory/testMailCoreMemory-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "testMailCoreMemoryTests/testMailCoreMemoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F816B3151976ED4200440C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testMailCoreMemory.app/Contents/MacOS/testMailCoreMemory";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testMailCoreMemory/testMailCoreMemory-Prefix.pch";
+				INFOPLIST_FILE = "testMailCoreMemoryTests/testMailCoreMemoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F816B2DA1976ED4200440C6D /* Build configuration list for PBXProject "testMailCoreMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F816B30E1976ED4200440C6D /* Debug */,
+				F816B30F1976ED4200440C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F816B3101976ED4200440C6D /* Build configuration list for PBXNativeTarget "testMailCoreMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F816B3111976ED4200440C6D /* Debug */,
+				F816B3121976ED4200440C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F816B3131976ED4200440C6D /* Build configuration list for PBXNativeTarget "testMailCoreMemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F816B3141976ED4200440C6D /* Debug */,
+				F816B3151976ED4200440C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F816B2D71976ED4200440C6D /* Project object */;
+}
